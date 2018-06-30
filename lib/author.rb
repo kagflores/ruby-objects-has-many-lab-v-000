@@ -19,7 +19,7 @@ class Author
   end
 
   def self.post_count
-    if @posts.count == 0
+    if @posts.empty? == true
       nil
     else @posts.count
     end
