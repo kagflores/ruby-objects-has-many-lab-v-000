@@ -19,6 +19,7 @@ class Author
   end
 
   def self.post_count
+    binding.pry
     if @posts.empty? == true
       nil
     else @posts.count
