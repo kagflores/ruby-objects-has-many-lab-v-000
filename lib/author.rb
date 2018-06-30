@@ -22,7 +22,7 @@ class Author
     if @posts.count == 0
       nil
     else @posts.count
-    
+    end
   end
 
 end
