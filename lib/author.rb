@@ -19,8 +19,12 @@ class Author
   end
 
   def self.post_count
-    binding.pry
-    self.count
+    i = 0
+    @posts.each do |post|
+    i+=1
+  end
+  i
+end
 
   end
 
