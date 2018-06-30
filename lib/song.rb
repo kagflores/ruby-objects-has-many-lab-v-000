@@ -8,6 +8,10 @@ class Song
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
   def artist_name
     #binding.pry
     if self.artist == nil
