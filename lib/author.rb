@@ -19,12 +19,8 @@ class Author
   end
 
   def self.post_count
-    i = 0
-    @posts.each do |post|
-    i+=1
+    post_count = @posts.count
+    
   end
-  i
-end
-
 
 end
